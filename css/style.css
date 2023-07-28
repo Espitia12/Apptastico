@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -14,12 +15,18 @@ header{
 
 
 body{
-    display: flex;
-    justify-content: center;
+    height: 100%;
+
+
 }
 
 nav{
     width: 25%;
+}
+
+main{
+    height: 100vh;
+
 }
 
 .encabezado{
@@ -37,6 +44,7 @@ nav{
     text-align: center;
     justify-content: space-between;
     list-style: none;
+    font-size: 23px;
   
 
 }
@@ -49,13 +57,14 @@ nav{
     color: #fff; 
     text-decoration: none; 
     padding: 5px 10px; 
+
 }
 
 .menu li a:hover,
 .menu li a:focus,
 .menu li a:active {
     background-color: #444;
-    border-radius: 5px; 
+    border-radius: 35px; 
 }
 
 .celular{
@@ -74,16 +83,119 @@ nav{
 .contenedor1_2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:flex-start;
+    justify-content:flex-start; 
+    align-items: flex-start;
     margin: 1%;
-    width: 30%;
-    padding: 1%;
-    height: 102%;
+    width: 33%;
+    height: 75%;
+    font-size: 23px;
 }
 
 
+
 .contenedor1_2 h1{
+    font-size: 3em;
+    color: #fff;
+}
+
+.contenedor1_2 p{
+    margin: 10px;;
+}
+
+.texto1{
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.texto2{
+    color: rgba(255, 255, 255, 0.214);
+}
+
+.opciones{
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    margin: 8% 0% 0% 0%;
+
+}
+
+.boton{
+    background-color: rgb(62, 149, 210);
+    border-radius: 35px;
+    border: none;
+    padding: 20px 90px;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    font-size: 15PX;
+
+}
+
+.link{
+    border-bottom: 1px solid rgb(255, 255, 255);;
+}
+
+.opciones img{
+    margin: 0px 8px 0px 0px;
+
+}
+
+.separador{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.marcas{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.marcas img{
+    height: 50%;
+    width: 4%;
+}
+
+.contenedor2{
+    height: 50%;
+    display: flex;
+
+}
+
+.contenedor2 img{
+    width: 40%;
+    height: 70%;
+}
+
+
+
+.tipo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0% 1%;
+
+
+
+}
+
+.texto3{
+    font-size: 30px;
     
+}
+
+.texto4{
+    font-size: 20px;
+    
+}
+
+.boton2{
+    background-color: rgb(62, 149, 210);
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    font-size: 15PX;
 
 }
